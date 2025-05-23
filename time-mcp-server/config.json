@@ -1,0 +1,9 @@
+{
+    "default_timezone": "Australia/Melbourne",
+    "date_format": "%Y-%m-%d",
+    "time_format": "%H:%M:%S",
+    "datetime_format": "%Y-%m-%d %H:%M:%S",
+    "max_timezones": 100,
+    "cache_ttl": 300,
+    "enable_dst_warnings": true
+}

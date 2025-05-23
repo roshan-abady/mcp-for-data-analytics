@@ -1,0 +1,15 @@
+{
+    "servers": [
+        {
+            "name": "time-mcp-server",
+            "command": [
+                "python",
+                "-m",
+                "server.main"
+            ],
+            "cwd": "${workspaceFolder}/..",
+            "title": "Time MCP Server",
+            "description": "A server for time utilities and timezone conversions with Melbourne, Australia focus"
+        }
+    ]
+}
