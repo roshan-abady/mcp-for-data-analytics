@@ -9,8 +9,10 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "--root-dir", "${workspaceFolder}",
-                "--log-level", "DEBUG"
+                "--root-dir",
+                "${workspaceFolder}",
+                "--log-level",
+                "DEBUG"
             ]
         },
         {
@@ -21,8 +23,10 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "--action", "list",
-                "--path", "."
+                "--action",
+                "list",
+                "--path",
+                "."
             ]
         },
         {

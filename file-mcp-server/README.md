@@ -76,15 +76,15 @@ The server can be configured using a JSON file or command-line arguments:
 
 ### Configuration Options
 
-| Option | Description | Default |
-|--------|-------------|---------|
-| `rootDir` | Root directory to serve files from | Current directory |
-| `excludePatterns` | Patterns of files/directories to exclude | Common system dirs |
-| `maxFileSize` | Maximum file size to read in bytes | 10MB |
-| `defaultMimeType` | Default MIME type when detection fails | application/octet-stream |
-| `maxFilesPerDirectory` | Maximum number of files in directory listings | 1000 |
-| `maxSearchResults` | Maximum number of search results | 100 |
-| `respectGitignore` | Whether to respect .gitignore files | true |
+| Option                 | Description                                   | Default                  |
+| ---------------------- | --------------------------------------------- | ------------------------ |
+| `rootDir`              | Root directory to serve files from            | Current directory        |
+| `excludePatterns`      | Patterns of files/directories to exclude      | Common system dirs       |
+| `maxFileSize`          | Maximum file size to read in bytes            | 10MB                     |
+| `defaultMimeType`      | Default MIME type when detection fails        | application/octet-stream |
+| `maxFilesPerDirectory` | Maximum number of files in directory listings | 1000                     |
+| `maxSearchResults`     | Maximum number of search results              | 100                      |
+| `respectGitignore`     | Whether to respect .gitignore files           | true                     |
 
 ## MCP Components
 
@@ -92,27 +92,27 @@ The server can be configured using a JSON file or command-line arguments:
 
 The server provides the following MCP tools:
 
-| Tool Name | Description |
-|-----------|-------------|
+| Tool Name             | Description                                           |
+| --------------------- | ----------------------------------------------------- |
 | `file.list_directory` | List files and directories in the specified directory |
-| `file.read_content` | Read the content of a file safely |
-| `file.search` | Search for files matching a pattern |
-| `file.get_metadata` | Get metadata for a file or directory |
-| `file.analyze_path` | Analyze a file path for safety and validity |
+| `file.read_content`   | Read the content of a file safely                     |
+| `file.search`         | Search for files matching a pattern                   |
+| `file.get_metadata`   | Get metadata for a file or directory                  |
+| `file.analyze_path`   | Analyze a file path for safety and validity           |
 
 ### Resources
 
-| Resource Scheme | Description |
-|-----------------|-------------|
-| `file://` | Access files and directories by path |
+| Resource Scheme | Description                          |
+| --------------- | ------------------------------------ |
+| `file://`       | Access files and directories by path |
 
 ### Prompts
 
-| Prompt Name | Description |
-|-------------|-------------|
-| `file.code_review` | Generate prompts for code review of a file |
-| `file.summarize` | Generate prompts for summarizing a file's content |
-| `file.project_structure` | Generate prompts for analyzing project structure |
+| Prompt Name              | Description                                       |
+| ------------------------ | ------------------------------------------------- |
+| `file.code_review`       | Generate prompts for code review of a file        |
+| `file.summarize`         | Generate prompts for summarizing a file's content |
+| `file.project_structure` | Generate prompts for analyzing project structure  |
 
 ## Security Features
 
