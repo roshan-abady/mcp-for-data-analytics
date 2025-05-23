@@ -1,0 +1,6 @@
+fastmcp>=0.1.0
+python-magic>=0.4.27
+gitignore-parser>=0.0.9
+pathspec>=0.11.0
+watchdog>=3.0.0
+rich>=13.0.0

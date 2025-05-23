@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run File MCP Server",
+            "type": "python",
+            "request": "launch",
+            "module": "server.main",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--root-dir", "${workspaceFolder}",
+                "--log-level", "DEBUG"
+            ]
+        },
+        {
+            "name": "Run Client Example",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/examples/client_example.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--action", "list",
+                "--path", "."
+            ]
+        },
+        {
+            "name": "Run Tests",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-xvs",
+                "tests"
+            ],
+            "justMyCode": true
+        }
+    ]
+}

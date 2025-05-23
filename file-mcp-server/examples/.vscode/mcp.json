@@ -1,0 +1,20 @@
+{
+    "name": "File MCP Server",
+    "rootDir": "${workspaceFolder}",
+    "excludePatterns": [
+        "**/.git/**",
+        "**/node_modules/**",
+        "**/__pycache__/**",
+        "**/.venv/**",
+        "**/.vscode/**",
+        "**/dist/**",
+        "**/build/**"
+    ],
+    "maxFileSize": 10485760,
+    "maxFilesPerDirectory": 1000,
+    "maxSearchResults": 100,
+    "respectGitignore": true,
+    "serverName": "File MCP Server",
+    "serverVersion": "0.1.0",
+    "serverDescription": "Secure, read-only access to files"
+}
